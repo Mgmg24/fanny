@@ -1,0 +1,41 @@
+body{
+    background-color: pink;
+}
+h3{
+    text-align: center;
+}
+form{
+     margin:auto;
+     width:auto;
+     height:auto;
+     padding: 10%;
+}
+div{
+    border: 2px  solid black ;
+    margin: 5%;
+    border: outset;
+    border-radius: 50px;
+    padding: 5%;
+}
+select{
+    background-color: pink;
+    border: outset;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.div_button{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    margin:5% 7%;
+    background-color: pink;
+    border: outset;
+    border-radius: 50px;
+    width: 30%;
+    height: 40%;
+}

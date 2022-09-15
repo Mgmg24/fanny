@@ -1,0 +1,21 @@
+body{
+    background-color: pink;
+}
+h3{
+    text-align: center;
+}
+form{
+    border: 2px solid black;
+    width: auto;
+
+}
+
+button{
+    border: 1px solid pank;
+    margin:auto 70%;
+    width: 30%;
+    height: 20%;
+    border: outset;
+    border-radius: 50px;
+    background-color: pink;
+}

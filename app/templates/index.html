@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h3><em> Trsditional Astrology</em></h3>
+
+    <h4 >{{error}}</h4>
+    
+<form action="{% url 'year' %}" method="get">
+    <div>
+        <label for="1"><em>Year</em></label>
+        <input type="number" name="year"  id="1"placeholder="Enter You was born">
+        </div>
+    </div>
+    <div>
+        <label for="2"><em>Day</em></label>
+        <select name="day" id="2">
+            <option value="1"><em>Sunday</em></option>
+            <option value="2">Monday</option>
+            <option value="3">Tuesday</option>
+            <option value="4">Wednesday</option>
+            <option value="5">Thursday</option>
+            <option value="6">Friday</option>
+            <option value="7">Satursday</option>
+
+        </select>
+    </div>
+    <button>start</button>
+
+
+</form>
+    
+</body>
+</html>
